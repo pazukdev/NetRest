@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Context>
-
     <Resource name="jdbc/mydbtest"
               auth="Container"
               type="javax.sql.DataSource"
@@ -24,6 +23,4 @@
               password="root"
               driverClassName="com.mysql.jdbc.Driver"
               url="jdbc:mysql://localhost:3306/mydbtest?useSSL=true&amp;autoReconnect=true&amp;serverTimezone=UTC"/>
-
-
 </Context>

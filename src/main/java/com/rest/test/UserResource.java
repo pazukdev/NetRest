@@ -7,7 +7,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.sql.SQLException;
 
-@Path("/wines")
+@Path("/users")
 public class UserResource {
 
     private UserDAO dao = new UserDAO();
